@@ -1,7 +1,6 @@
-import React from "react";
+import React from "react"; 
 
 import styles from "./Header.module.css"
-
 
 const Header = () => {
     return (
@@ -10,4 +9,5 @@ const Header = () => {
         </header>
     );
 }
+
 export default Header;
