@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import BuscaCep from "../components/BuscaCepForm";
 import Cadastro from "../components/Cadastro";
+import Editar from "../components/Editar";
 import Listagem from "../components/Listagem";
 
 const AppRouter = () => {
@@ -19,6 +20,8 @@ const AppRouter = () => {
                     element={<Cadastro />} />
                 <Route path="listagem"
                     element={<Listagem />} />
+
+                <Route path="/editar/:id" element={<Editar />} />
             </Routes>
         </BrowserRouter>
     );
